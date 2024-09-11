@@ -13,7 +13,7 @@ Install Redux and RTK Query: You'll need to install @reduxjs/toolkit and react-r
 Setting up Redux and RTK Query
 Create the Redux store: First, set up a Redux store that integrates RTK Query. The store will handle state and middleware for the API interactions.
 
-Create an API slice with RTK Query: In the apiSlice file, define your endpoints for fetching, adding, and updating data. This will configure how RTK Query interacts with your mock API.
+Create an API slice with RTK Query: In the dummyData file, we define our endpoints for fetching, adding, and updating data. This will configure how RTK Query interacts with your mock API.
 
 Provider Setup: Wrap your entire application in the Redux Provider component so that the store is available across your app.
 
